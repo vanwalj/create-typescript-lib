@@ -1,0 +1,30 @@
+{
+  "name": "create-typescript-proj",
+  "version": "0.0.0-alpha-1",
+  "description": "Create typescript project",
+  "bin": {
+    "create-typescript-lib": "bin/index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanwalj/create-typescript-lib.git"
+  },
+  "keywords": [
+    "Create",
+    "typescript",
+    "lib"
+  ],
+  "author": "Jordan Van Walleghem <j.vanwall@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanwalj/create-typescript-lib/issues"
+  },
+  "homepage": "https://github.com/vanwalj/create-typescript-lib#readme",
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "mustache": "^3.0.1"
+  }
+}
